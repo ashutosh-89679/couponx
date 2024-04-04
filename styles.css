@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    flex-direction: row;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
